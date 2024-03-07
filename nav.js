@@ -4,7 +4,7 @@ class nav extends HTMLElement {
     <section class="header-section">
     <div class="header">
       <div class="logo">
-        <img src="./static/images/logo.jpeg" alt="" />  
+        <img src="./static/images/icons/logo.jpeg" alt="" />  
       </div>
       <div class="navigation">
         <nav>
@@ -15,6 +15,10 @@ class nav extends HTMLElement {
             <li><a href="./contact.html">Contact </a></li>
           </ul>
         </nav>
+      </div>
+      <div class="connect">
+                <div><a href=""><img src="./static/images/icons/ig.png" alt=""></a></div>
+                <div><a href=""><img src="./static/images/icons/ig.png" alt=""></a></div>
       </div>
     </div>
   </section>
