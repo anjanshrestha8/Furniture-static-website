@@ -91,8 +91,9 @@
         width: 100%;
     }
 
-    .logo {
-        width: 80px;
-        height: 40px;
-      }
+    .logo{
+        margin-top: -1rem;
+        width: 60%;
+        height: 100%;
+    }
 }
