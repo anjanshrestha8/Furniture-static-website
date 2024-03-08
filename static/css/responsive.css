@@ -59,11 +59,35 @@
     .Navigation-menubtn{
         display: block;
     }
+
+    .dec{
+        margin-left: -2rem;
+        width: 40%;
+        height: 30%;
+        font: 20rem;
+    }
+
+    .background-img{
+        height: 90%;
+        width: 100%;
+    }
 }
 
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
         right: 0;
+    }
+
+    .dec{
+        margin-left: -2rem;
+        width: 80%;
+        height: 30%;
+        font: 20rem;
+    }
+
+    .background-img{
+        height: 90%;
+        width: 100%;
     }
 }
