@@ -163,6 +163,7 @@ body {
   row-gap: 2rem;
 }
 .products {
+  display: grid;
   padding: 1rem;
   background-color: white;
   border-radius: 1rem;
@@ -179,9 +180,33 @@ body {
   font-size: 1.5rem;
 }
 .image > img {
-  border-radius: 1.8756rem;
+  border-radius: 1rem;
   max-width: 100%;
 }
 .info {
-  background-color: red;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+  row-gap: 0.3rem;
+  background-color: var(--primary-background-color);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.info > div:first-child > h1 {
+  color: var(--primary-font-color);
+  font-size: 20px;
+}
+.info > div:last-child > p {
+  justify-content: center;
+  align-items: center;
+  text-decoration: line-through;
+  color: #6b6b6b;
+  font-style: italic;
+}
+.price > p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
 }
