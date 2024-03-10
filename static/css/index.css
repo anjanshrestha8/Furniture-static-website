@@ -140,3 +140,73 @@ body {
   border-radius: 1.875rem;
 }
 /*********** End of TOP CATEGORIES SECTION ********/
+
+.our-product-section {
+  margin-top: 3rem;
+}
+.our-product-section > div :first-child {
+  display: grid;
+  justify-content: center;
+}
+.our-product-section > div:first-child > h1 {
+  color: var(--primary-font-color);
+  font-size: 2.5rem;
+}
+.pro-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+.products {
+  display: grid;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.offer {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  color: var(--secondary-background-color);
+  font-size: 1.5rem;
+}
+.image > img {
+  border-radius: 1rem;
+  max-width: 100%;
+}
+.info {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+  row-gap: 0.3rem;
+  background-color: var(--primary-background-color);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.info > div:first-child > h1 {
+  color: var(--primary-font-color);
+  font-size: 20px;
+}
+.info > div:last-child > p {
+  justify-content: center;
+  align-items: center;
+  text-decoration: line-through;
+  color: #6b6b6b;
+  font-style: italic;
+}
+.price > p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}

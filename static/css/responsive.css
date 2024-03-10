@@ -7,48 +7,77 @@
   --secondary-font-color: #ffffff;
 }
 
-.sidebar{
-    position: fixed;
-    top: 0;
-    right: 0rem;
-    padding-top: 6rem;
-    height: 20rem;
-    width: 15rem;
-    z-index: 999;
-    background-color: var(--primary-background-color);
-    box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
-    display: none;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding-left: 2rem;
-} 
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0rem;
+  padding-top: 6rem;
+  height: 20rem;
+  width: 15rem;
+  z-index: 999;
+  background-color: var(--primary-background-color);
+  box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-left: 2rem;
+}
 
 .sidebar > li {
-    width: 100%;
-    list-style: none;
-    padding-bottom: 2rem;
+  width: 100%;
+  list-style: none;
+  padding-bottom: 2rem;
 }
 
-.sidebar > li > a{
-    width: 100%;
-    text-decoration: none;
-    color: var(--primary-font-color);
-    font-size: 1.3rem;
-    font-family: var(--primary-font);
-    /* padding-left: 2rem; */
+.sidebar > li > a {
+  width: 100%;
+  text-decoration: none;
+  color: var(--primary-font-color);
+  font-size: 1.3rem;
+  font-family: var(--primary-font);
+  /* padding-left: 2rem; */
 }
 
-.Navigation-menubtn{
+.navigation-menu-btn {
+  display: none;
+  list-style: none;
+  float: right;
+  margin-right: -4rem;
+}
+
+.navigation-close-btn {
+  background-color: none;
+}
+
+@media (max-width: 800px) {
+  .hide-on-mobile {
     display: none;
-    list-style: none;
-    float: right;
-    margin-right: -4rem;
+  }
+  .navigation-menu-btn {
+    display: block;
+  }
+
+  .dec {
+    margin-left: -2rem;
+    width: 40%;
+    height: 30%;
+    font: 20rem;
+  }
+
+  .background-img {
+    height: 90%;
+    width: 100%;
+  }
 }
 
-.Navigation-closebtn{
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+    right: 0;
+  }
 
 }
 
@@ -118,5 +147,25 @@
         margin-left: 4rem;
         width: 14rem;
         height: 70%;
+    }
+
+    .pro-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 0.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    .products{
+      display: grid;
+      padding: 0.5rem;
+      background-color: white;
+      border-radius: 1rem;
+    }
+
+    .image{
+      border-radius: 1rem;
     }
 }
