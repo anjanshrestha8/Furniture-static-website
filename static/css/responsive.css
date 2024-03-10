@@ -98,14 +98,17 @@
     }
 
     .cat-bg > img{
+        display: grid;
+        justify-content: center;
         height: 15rem;
         width: 20rem;
-        margin-left: -19rem;
+        margin-left: -18rem;
     }
 
     .content{
         margin-top: 20rem;
         display: grid;
+        justify-content: center;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     
