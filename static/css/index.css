@@ -41,6 +41,7 @@ body {
 
 .navigation > nav > ul > li {
   list-style: none;
+  transition: all 60ms ease-in-out;
 }
 .navigation > nav > ul > li > a {
   text-decoration: none;
@@ -48,14 +49,14 @@ body {
   font-size: 1.3rem;
   color: black;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  transition: all 60ms ease-in-out;
 }
 /* hoover for navigation */
-.navigation > nav > ul > li :hover {
+nav > ul > li > a:hover {
   color: white;
   background-color: var(--primary-font-color);
   border-radius: 15px;
 }
+
 /****************** End of navigation bar ***********/
 
 .connect {
