@@ -78,94 +78,92 @@
     width: 100%;
     right: 0;
   }
-
 }
 
-@media(max-width: 800px){
-    .hideOnmobile{
-        display: none;
-    }
-    .Navigation-menubtn{
-        display: block;
-    }
+@media (max-width: 800px) {
+  .hide-on-mobile{
+    display: none;
+  }
+  .Navigation-menubtn {
+    display: block;
+  }
 
-    .dec{
-        margin-left: -2rem;
-        width: 40%;
-        height: 30%;
-        font: 20rem;
-    }
+  .dec {
+    margin-left: -2rem;
+    width: 40%;
+    height: 30%;
+    font: 20rem;
+  }
 
-    .background-img{
-        height: 90%;
-        width: 100%;
-    }
+  .background-img {
+    height: 90%;
+    width: 100%;
+  }
 }
 
-@media(max-width: 400px){
-    .sidebar{
-        width: 100%;
-        right: 0;
-    }
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+    right: 0;
+  }
 
-    .dec{
-        margin-left: -2rem;
-        width: 80%;
-        height: 30%;
-        font: 20rem;
-    }
+  .dec {
+    margin-left: -2rem;
+    width: 80%;
+    height: 30%;
+    font: 20rem;
+  }
 
-    .background-img{
-        height: 90%;
-        width: 100%;
-    }
+  .background-img {
+    height: 90%;
+    width: 100%;
+  }
 
-    .logo{
-        margin-top: -1rem;
-        width: 60%;
-        height: 100%;
-    }
+  .logo {
+    margin-top: -1rem;
+    width: 60%;
+    height: 100%;
+  }
 
-    .cat-bg > img{
-        display: grid;
-        justify-content: center;
-        height: 15rem;
-        width: 20rem;
-        margin-left: -18rem;
-    }
+  .cat-bg > img {
+    display: grid;
+    justify-content: center;
+    height: 15rem;
+    width: 20rem;
+    margin-left: -18rem;
+  }
 
-    .content{
-        margin-top: 20rem;
-        display: grid;
-        justify-content: center;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    
-    }
+  .content {
+    margin-top: 20rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
 
-    .items{
-        margin-left: 4rem;
-        width: 14rem;
-        height: 70%;
-    }
+  .items {
+    margin-left: 4rem;
+    width: 14rem;
+    height: 70%;
+  }
 
-    .pro-container{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      gap: 0.5rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
-    }
+  .pro-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
-    .products{
-      display: grid;
-      padding: 0.5rem;
-      background-color: white;
-      border-radius: 1rem;
-    }
+  .products {
+    display: grid;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 1rem;
+  }
 
-    .image{
-      border-radius: 1rem;
-    }
+  .image {
+    border-radius: 1rem;
+  }
 }

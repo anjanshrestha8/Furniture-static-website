@@ -51,17 +51,15 @@ nav > ul > li > a {
 nav > ul > li :hover {
   color: white;
   background-color: var(--primary-font-color);
-  border-radius: 15px;
+  border-radius: 8px;
 }
 .connect {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
-.connect-icon {
+#connect-icon {
   height: 30px;
-}
-.connect-icon:hover {
   cursor: pointer;
 }
 /* End of navigation section */
@@ -97,8 +95,7 @@ nav > ul > li :hover {
   margin-top: 3rem;
 }
 .top-categories > div:first-child {
-  display: grid;
-  justify-content: center;
+  text-align: center;
 }
 .top-categories > div:first-child > h1 {
   color: var(--primary-font-color);
