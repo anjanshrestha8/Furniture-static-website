@@ -86,10 +86,6 @@ nav > ul > li :hover {
   /* background-color: red; */
 }
 
-.responsive-bg{
-  display: none;
-}
-
 .bg > img {
   /* border-top-left-radius: 30px; */
   /* border-bottom-right-radius: 80rem; */
