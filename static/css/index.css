@@ -28,7 +28,6 @@ body {
   box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 1px 5px 4px 1px rgba(0, 0, 0, 0.3);
-  z-index: 1;
 }
 .logo {
   width: 80px;
@@ -46,7 +45,7 @@ nav > ul > li > a {
   font-size: 1.3rem;
   color: black;
   padding: 0.5rem;
-  transition: all 100ms ease-in-out;
+  transition: all 350ms ease-in-out;
 }
 nav > ul > li :hover {
   color: white;
@@ -63,32 +62,48 @@ nav > ul > li :hover {
   cursor: pointer;
 }
 /* End of navigation section */
-.hero-section {
-  position: relative;
-}
 
-.hero-section > div:first-child {
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  position: relative;
-  z-index: -1;
+.hero-section-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 5rem;
+  justify-content: center;
+  align-items: center;
 }
 .dec {
-  position: absolute;
-  width: 28.5%;
-  bottom: 10rem;
-  left: 3.125rem;
-  background-color: var(--primary-background-color);
-  opacity: 0.6;
-  border-radius: 15px;
-  padding: 1.2rem;
-  z-index: -0;
+  background-color: var(--secondary-font-color);
+  padding: 2rem;
+  border-radius: 1rem;
 }
-.dec :hover {
-  color: var(--primary-font);
-  opacity: 1;
+.dec > h1 {
+  font-size: 2rem;
+  line-height: 3rem;
 }
+.dec > p {
+  line-height: 1rem;
+}
+.bg {
+  /* background-color: red; */
+}
+
+.bg > img {
+  /* border-top-left-radius: 30px; */
+  /* border-bottom-right-radius: 80rem; */
+
+  border-bottom-left-radius: 80rem;
+  /* border-top-right-radius: 290px; */
+
+  transition: all 500ms ease-in-out;
+}
+.bg > img:hover {
+  border-bottom-left-radius: 1rem;
+  /* border-bottom-right-radius: 1rem; */
+
+  box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
 /*************** End of  hero-section **************/
 
 .top-categories {
@@ -200,9 +215,9 @@ nav > ul > li :hover {
 /* banner hover */
 .product-container:hover {
   border-radius: 1rem;
-  box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.75);
 }
 .offer {
   justify-content: center;
