@@ -72,13 +72,6 @@
   }
 }
 
-@media (max-width: 400px) {
-  .sidebar {
-    width: 100%;
-    right: 0;
-  }
-}
-
 @media (max-width: 800px) {
   .hide-on-mobile{
     display: none;
@@ -101,8 +94,18 @@
 }
 
 @media (max-width: 450px) {
+
+  .navigation{
+    width: 80%;
+    position: fixed;
+  }
+
+  .page-container{
+    width: auto;
+  }
+
   .sidebar {
-    width: 100%;
+    width: 40%;
     right: 0;
   }
 
@@ -122,9 +125,14 @@
     justify-content: center;
   }
 
-  .background-img {
-    height: 90%;
+  .bg > img {
+    display: none;
+  }
+
+  .responsive-bg{
+    display: flex;
     width: 100%;
+    height: 90%;
   }
 
   .logo {

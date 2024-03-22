@@ -11,10 +11,10 @@ body {
   background-color: var(--primary-background-color);
   font-family: "Inter";
 }
-.page-container {
+/* .page-container {
   max-width: 80rem;
   margin: 0 auto;
-}
+} */
 
 .header {
   position: fixed;
