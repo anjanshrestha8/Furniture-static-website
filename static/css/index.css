@@ -162,6 +162,7 @@ nav > ul > li :hover {
   color: #6b6b6b;
   padding-top: 0.2rem;
   text-align: left;
+  text-align: justify;
 }
 .cat-bg > img {
   border-radius: 1.875rem;
