@@ -74,19 +74,52 @@ nav > ul > li :hover {
 .dec {
   background-color: var(--secondary-font-color);
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 .dec > p {
+  font-family: sans-serif;
+  color: rgb(133, 133, 133);
+  font-size: 14px;
+  text-align: left;
   line-height: 1rem;
 }
 .dec > h1 {
   font-size: 48px;
+  font-weight: 500;
 }
 .dec > h1 > span {
   color: var(--primary-font-color);
+  font-size: 50px;
+  font-weight: 800;
 }
-.bg {
-  /* background-color: red; */
+.banner-button {
+  display: block;
+  font-family: inter;
+}
+.banner-button > button:first-child {
+  align-items: flex-start;
+  appearance: auto;
+  background-color: var(--primary-font-color);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0.9rem 1rem;
+  border: none;
+  color: var(--secondary-background-color);
+  margin-right: 1rem;
+  font-size: 14px;
+}
+
+.banner-button > a > button {
+  align-items: flex-start;
+  appearance: auto;
+  color: var(--primary-font-color);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0.9rem 1rem;
+  border: 2px solid var(--primary-font-color);
+  background-color: var(--secondary-background-color);
+  margin-right: 1rem;
+  font-size: 14px;
 }
 
 .bg > img {
@@ -162,6 +195,14 @@ nav > ul > li :hover {
   color: var(--primary-font-color);
   padding-top: 0.1rem;
 }
+.items > h1 > a > button {
+  padding-left: 0.1rem;
+  padding-top: 0.1rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--primary-font-color);
+  color: var(--primary-font-color);
+}
+
 .items > p {
   font-size: 0.813rem;
   color: #6b6b6b;
