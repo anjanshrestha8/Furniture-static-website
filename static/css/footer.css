@@ -1,0 +1,50 @@
+@import "reset.css";
+
+:root {
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #ffffff;
+  --primary-font-color: #2f4f5c;
+  --secondary-font-color: #ffffff;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    font-family: "Inter";
+  }
+
+.footer{
+    background-color: var(--secondary-background-color);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+    margin: 0;
+  }
+  footer .col1
+  {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  footer .col2
+  {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .footer-bottom{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .icon-logo{
+    height: 3.45rem;
+    width: auto;
+    margin-right: 10px;
+  }
