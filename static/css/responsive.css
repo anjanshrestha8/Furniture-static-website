@@ -24,8 +24,7 @@
       grid-template-columns: 1fr 1fr;
     column-gap: 0.001rem;
     row-gap: 0.5rem;
-    margin-left: 0.6rem;
-    margin-right: 0.6rem;
+    justify-content: center;
     }
     
     .product-container{   
