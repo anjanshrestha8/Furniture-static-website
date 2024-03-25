@@ -24,7 +24,8 @@
       grid-template-columns: 1fr 1fr;
     column-gap: 0.001rem;
     row-gap: 0.5rem;
-    justify-content: center;
+    margin-left: 0.54rem;
+    margin-right: 0.54rem;
     }
     
     .product-container{   
@@ -87,3 +88,5 @@
         transition: all ease-in-out 100ms;
       }
   }
+
+  /* End of responsive sofa gallery */
