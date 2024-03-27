@@ -168,7 +168,7 @@ nav > ul > li :hover {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap: 1rem;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 /* top categories grid contents  */
 .items {
@@ -239,6 +239,7 @@ nav > ul > li :hover {
   grid: 1fr 1fr / 1fr 1fr 1fr;
   row-gap: 3rem;
   column-gap: 3rem;
+  margin-bottom: 2rem;
 }
 .product-container {
   display: grid;

@@ -20,21 +20,64 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 40px 80px;
+    padding: 3.5rem 12rem;
     margin: 0;
   }
+
   footer .col1
   {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .maphead{
+    font-family: Poppins;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
   
-  footer .col2
-  {
+  footer .col2{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .col2-contact{
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+  }
+
+  .info1{
+    margin-top: -2.6rem;
+  }
+
+  .contacttitle1{
+    height: 100%;
+    font-family: Poppins;
+    width: 30%;
+    font-size: 16px;
+  }
+  
+  .contactbody1{
+    font-size: 14px;
+    font-family: Poppins;
+  }
+
+  .maphead2{
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  .image-container{
+    display: inline;
+    margin-top: 1rem;
+    margin-left: 2rem;
   }
   
   .footer-bottom{
