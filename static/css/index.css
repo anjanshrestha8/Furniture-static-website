@@ -295,9 +295,13 @@ nav > ul > li :hover {
 
 /* Content pages css */
 
-.views-header-container {
-  margin-top: 3rem;
+.bg-banner{
+  width: 100%;
 }
+
+/* .views-header-container {
+  margin-top: 3rem;
+} */
 
 .views-header-container > div {
   display: block;
