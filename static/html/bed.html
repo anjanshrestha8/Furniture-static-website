@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../../trash/responsive-trash.css">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,500,0,0"
@@ -16,22 +17,84 @@
     <title>BED</title>
   </head>
   <body>
-    <div class="bg-banner">
-      <img src="../images/icons/Free-delivery-banner.png" alt="">
-    </div>
     <main class="page-container">
+      <section class="header">
+        <div class="navigation">
+          <div class="logo">
+            <img src="../images/icons/logo.jpeg" alt="" class="responsive-logo"/>
+          </div>
+          <div class="nav">
+            <nav>
+              <ul>
+                <li class="hide-on-mobile"><a href="../../index.html">Home</a></li>
+                <li class="hide-on-mobile"><a href="#top-categories ">Categories</a></li>
+                <li class="hide-on-mobile"><a href="#our-product-section">Gallery</a></li>
+                <li class="hide-on-mobile"><a href="#footer">Contact</a></li>
+                <li onclick="opensidebar()" class="navigation-menu-btn"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="connect">
+
+            <div id="connect-icon" class="hide-on-mobile">
+              <a href=""><img src="../images/icons/Facebook.png" alt=""></a>
+            </div>
+
+            <div id="connect-icon"  class="hide-on-mobile">
+              <a href=""><img src="../images/icons/ig.png" alt=""></a>
+            </div>
+
+          </div>
+        </div><br><br><br>
+
+
+
+        <!-- RESPONSIVE HEADER -->
+
+        <div>
+          <nav>
+            <ul class="sidebar">
+              <li onclick="closeSidebar()" class="navigation-close-btn"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="34" viewBox="0 -960 960 960" width="34"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+              <li><a href="./index.html">Home</a></li><br>
+              <li><a href="#footer">About</a></li><br>
+              <li><a href="./gallery.html">Gallery</a></li><br>
+              <li><a href="./contact.html">Contact </a></li><br>
+            </ul>
+          </nav>
+        </div>
+      </div>
+ <!-- Javascript for responsive navigation -->
+ <script>
+  function opensidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'grid';
+  }
+
+  function closeSidebar(){
+    const Csidebar = document.querySelector('.sidebar');
+    Csidebar.style.display = 'none';
+  }
+</script>
+
+</section>
+<!-- End of header section -->
 
       <!-- navigation -->
       <section class="views-header-container">
-        <div>
+        <!-- <div>
           <button class="go-back" onclick="history.go(-1)">
             <span class="material-symbols-outlined"> arrow_back</span>
           </button>
-          <div class="bounce">
-            <div class="bounce-txt">
-              <h2>Welcome to Our Bed Collection!!</h2>
-            </div>
+          
+        </div> -->
+       
+        <div class="bounce">
+          <div class="bounce-txt">
+            <h2>Welcome to Our Sofa Collection!!</h2>
           </div>
+        </div>
+        <div class="bg-banner">
+          <img src="../images/icons/Free-delivery-banner.png" alt="">
         </div>
       </section>
       <!-- views -->
